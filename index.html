@@ -1,23 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Encontro de Carro de Drift</title>
+</head>
+<body>
+    <header>
+       <p style="font-size:50px;color:orange;background-color:black;">Portal de Login - Encontro de carros de Drift</p> 
+
+  
+</header>
+<style>
+
+.myDiv {
+  border: 5px outset orange;   
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="myDiv">
+   <main>
+        <form action="dashboard.html" method="post">
+            <label for="username">Usuário:</label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="password">Senha:</label><br>
+            <input type="password" id="password" name="password"><br><br>
+            <input type="submit" value="Login">
+        </form>
+    </main>  
+</div>
+<footer>
+
+    </footer>
+
+</body>
 </html>
