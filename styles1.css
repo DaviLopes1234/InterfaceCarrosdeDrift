@@ -35,6 +35,13 @@ main {
      h1 {
     font-weight: bold;
     font-size: 35px;
-    
- 
+
   }
+  img {
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    float: right;
+    float: top;
+    
+}
