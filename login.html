@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="styles1.css">     
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Encontro de Carro de Drift</title>
+</head>
+<body>
+    <nav class="navegacao">
+        <h1 class="titulo">DateDrift</h1>
+        <button class="botao" onclick="window.location.href = 'index.html'">Quem somos nós</button>        
+        <button class="botao">Como ingressar</button> 
+        <button class="botao">Faça sua Inscrição</button> 
+        <button class="botao">Contato</button> 
+    </nav>
+
+    <main>
+        <div id="contenedorFormulario">
+            <form id="meuFormularioLogin" action="/login" method="post">
+                <label for="username">Nome de usuário:</label><br>
+                <input type="text" id="username" name="username"><br>
+                <label for="password">Senha:</label><br>
+                <input type="password" id="password" name="password"><br>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+        
+        <script src="valid.js"></script>
+    </main>
+</body>
+</html>
+
+

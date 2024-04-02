@@ -11,11 +11,11 @@ body {
   font-family: system-ui, sans-serif;
   color: black;
   background-color: rgb(0, 0, 0); 
-  background-image: url(24787.jpg);
+  background-image: url(node_modules/imagens/backgroungGeral.jpg);
 }
 
 /* Estilos do cabeçalho de navegação */
-nav {
+.navegacao {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -33,7 +33,7 @@ nav {
 }
 
 /* Estilos dos botões de navegação */
-nav button {
+.botao {
   display: inline-block;
   min-width: 9rem;
   padding: 10px 20px;
@@ -42,7 +42,6 @@ nav button {
   text-decoration: none;
   color:black;
   background-color: #edef00;
-  background-color: ffff00;
   font-family:"Copperplate Gothic std", fantasy;
   font-size: 24px;
   font-weight: 700;
@@ -50,34 +49,34 @@ nav button {
 }
 
 /* Efeito hover para os botões de navegação */
-nav button:hover {
-  background-color: #29b935;
+.botao:hover {
+  background-color: #3e3f3e;
 }
 
 /* Estilos do cabeçalho principal */
-header {
+.cabecalho {
   padding: 70px;
   text-align: center;
   font-family: "Copperplate Gothic std", fantasy;
 }
 
-header h1 {
+.cabecalho h1 {
   text-align: left;
   font-weight: bold;
   font-size: 35px;
   color:#edef00;
 }
 
-header h4 {
+.cabecalho h4 {
   text-align: left;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 20px;
   color: #edef00;
   padding: 10px;
 }
 
 /* Estilos do conteúdo principal */
-main {
+.conteudo-principal {
   margin-top: 250px;
 }
 
@@ -90,7 +89,7 @@ img {
 }
 
 /* Estilos do rodapé */
-footer {
+.rodape {
   color: #fff;
   text-align: center;
   padding: 10px;
@@ -98,4 +97,63 @@ footer {
   bottom: 0;
   width: 100%;
   padding: 10px;
+}
+
+/* Estilos do contêiner do formulário */
+#contenedorFormulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura total da viewport */
+}
+
+/* Estilos do formulário */
+#contenedorFormulario #meuFormularioLogin {
+  width: 300px;
+  padding: 20px;
+  background-color: #333232;
+  border-radius: 8px;
+}
+
+/* Estilos dos inputs do formulário */
+#contenedorFormulario #meuFormularioLogin input[type="text"],
+#contenedorFormulario #meuFormularioLogin input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Estilos do botão de envio do formulário */
+#contenedorFormulario #meuFormularioLogin input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  color: #000000;
+  background-color:#edef00;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Efeito hover para o botão de envio */
+#contenedorFormulario #meuFormularioLogin input[type="submit"]:hover {
+  background-color: #ffffff;
+  
+}
+
+#meuFormularioLogin #username {
+  background-color: #000000;
+  color: #edef00;
+}
+
+/* Estilos do campo de senha */
+#contenedorFormulario #meuFormularioLogin #password {
+  background-color: #000000;
+  color: #edef00;
+}
+
+#contenedorFormulario #meuFormularioLogin label{
+color: #edef00;
+font-family:"Copperplate Gothic std", fantasy;
 }
