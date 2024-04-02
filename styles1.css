@@ -148,7 +148,7 @@ img {
 }
 
 /* Estilos do campo de senha */
-#contenedorFormulario #meuFormularioLogin #password {
+#meuFormularioLogin #password {
   background-color: #000000;
   color: #edef00;
 }
