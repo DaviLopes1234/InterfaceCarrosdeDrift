@@ -80,6 +80,22 @@ body {
   margin-top: 250px;
 }
 
+.sobre{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  color:#edef00;
+  font-family:"Copperplate Gothic std", fantasy;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  padding: 50px;
+}
 /* Estilos das imagens */
 img {
   border-radius: 10px;
