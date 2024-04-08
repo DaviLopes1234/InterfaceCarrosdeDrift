@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="styles1.css">     
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Encontro de Carro de Drift</title>
+</head>
+<body>
+    <nav class="navegacao">
+        <h1 class="titulo">DateDrift</h1>
+        <button class="botao" onclick="window.location.href = 'index.html'">Quem somos nós</button>        
+        <button class="botao">Como ingressar</button> 
+        <button class="botao">Faça sua Inscrição</button> 
+        <button class="botao">Contato</button> 
+        <button class="botao" onclick="window.location.href = 'login.html'">Login</button> 
+    </nav>
+
+    <main>
+        <div id="contenedorFormulario">
+            <form id="meuFormularioCadastro" action="/cadastro" method="post">
+                <label for="nomeCompleto">Nome completo:</label><br>
+                <input type="text" id="nomeCompleto" name="nomeCompleto" required><br>
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="senha">Senha:</label><br>
+                <input type="password" id="senha" name="senha" required><br>
+                <label for="confirmaSenha">Confirme sua senha:</label><br>
+                <input type="password" id="confirmaSenha" name="confirmaSenha" required><br>
+                <input type="submit" value="Cadastrar">
+            </form>
+        </div>
+    </main>
+</body>
+</html>

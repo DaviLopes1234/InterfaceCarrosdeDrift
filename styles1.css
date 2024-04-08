@@ -115,6 +115,8 @@ img {
   border-radius: 8px;
 }
 
+
+
 /* Estilos dos inputs do formulário */
 #contenedorFormulario #meuFormularioLogin input[type="text"],
 #contenedorFormulario #meuFormularioLogin input[type="password"] {
@@ -126,6 +128,112 @@ img {
 }
 
 /* Estilos do botão de envio do formulário */
+#contenedorFormulario #meuFormularioLogin input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  color: #000000;
+  background-color:#edef00;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Efeito hover para o botão de envio */
+#contenedorFormulario #meuFormularioLogin input[type="submit"]:hover {
+  background-color: #ffffff;
+  
+}
+
+#meuFormularioLogin #username {
+  background-color: #000000;
+  color: #edef00;
+}
+
+/* Estilos do campo de senha */
+#meuFormularioLogin #password {
+  background-color: #000000;
+  color: #edef00;
+}
+
+#contenedorFormulario #meuFormularioLogin label{
+color: #edef00;
+font-family:"Copperplate Gothic std", fantasy;
+}
+
+#contenedorFormulario #meuFormularioLogin input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  color: #000000;
+  background-color:#edef00;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Efeito hover para o botão de envio */
+#contenedorFormulario #meuFormularioLogin input[type="submit"]:hover {
+  background-color: #ffffff;
+  
+}
+
+#meuFormularioLogin #username {
+  background-color: #000000;
+  color: #edef00;
+}
+
+/* Estilos do campo de senha */
+#meuFormularioLogin #password {
+  background-color: #000000;
+  color: #edef00;
+}
+
+#contenedorFormulario #meuFormularioLogin label{
+color: #edef00;
+font-family:"Copperplate Gothic std", fantasy;
+}
+/* Estilos dos inputs do formulário */
+#contenedorFormulario #meuFormularioLogin input[type="text"],
+#contenedorFormulario #meuFormularioLogin input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Estilos do botão de envio do formulário */
+#contenedorFormulario #meuFormularioLogin input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  color: #000000;
+  background-color:#edef00;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Efeito hover para o botão de envio */
+#contenedorFormulario #meuFormularioLogin input[type="submit"]:hover {
+  background-color: #ffffff;
+  
+}
+
+#meuFormularioLogin #username {
+  background-color: #000000;
+  color: #edef00;
+}
+
+/* Estilos do campo de senha */
+#meuFormularioLogin #password {
+  background-color: #000000;
+  color: #edef00;
+}
+
+#contenedorFormulario #meuFormularioLogin label{
+color: #edef00;
+font-family:"Copperplate Gothic std", fantasy;
+}
+
 #contenedorFormulario #meuFormularioLogin input[type="submit"] {
   width: 100%;
   padding: 10px;
